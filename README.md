@@ -11,7 +11,7 @@ parse("Bring me a {}", "Bring me a shrubbery")
 
 returns a `Result`, but
 
-```
+```python
 parse("Bring me a {}", "Bring me a shrubbery", evaluate_result=False)
 ```
 
